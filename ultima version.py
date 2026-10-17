@@ -24,22 +24,22 @@ screen=pygame.display.set_mode((ancho_actual,largo_actual))
 pygame.mixer.init()
 
 #Crear ruta de los audios
-sonidos = os.path.join(ruta_directorio, "material datos")
+sonidos = os.path.join(ruta_directorio, "data", "sound")
 print("Sonidos: " + sonidos)
 
-musica = os.path.join(ruta_directorio, "material datos")
+musica = os.path.join(ruta_directorio, "data", "sound")
 print("Musica: " + musica)
 
-elementos_juego = os.path.join(ruta_directorio, "material datos")
+elementos_juego = os.path.join(ruta_directorio, "data", "img")
 print("Elementos juego: " + elementos_juego)
 
-jugador_imagen = os.path.join(ruta_directorio, "material datos")
+jugador_imagen = os.path.join(ruta_directorio, "data", "img")
 print("jugador imagen: " + jugador_imagen)
 
-Super_Mario_fuente = os.path.join(ruta_directorio, "material datos", "fuentes")
+Super_Mario_fuente = os.path.join(ruta_directorio, "data", "fuentes")
 print("fuente de texto: " + Super_Mario_fuente)
 
-fondo_menu = os.path.join(ruta_directorio, "material datos", "imajenes menu")
+fondo_menu = os.path.join(ruta_directorio, "data","img", "imajenes menu")
 print("fondo menu: " + fondo_menu)
 
 #carga la musica
